@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="pom.sample.todaytix.AppTest">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="quitDriver"/>
+          <include name="verifyNegativeLogin"/>
+          <include name="launchingUrl"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- pom.sample.todaytix.AppTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
